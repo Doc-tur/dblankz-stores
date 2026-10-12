@@ -9,8 +9,7 @@ import Shop from './pages/Shop';
 import Categories from './pages/Categories';
 import ProductDetails from './pages/ProductDetails';
 import About from './pages/About';
-import Contact from './pages/Contact';
-
+import Contact from './pages/Contact'; 
 
 export default function App(){
   return (
