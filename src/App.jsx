@@ -11,10 +11,11 @@ import ProductDetails from './pages/ProductDetails';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
+
 export default function App(){
   return (
     <BrowserRouter>
-    <CartProvider>
+    <CartProvider> 
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
